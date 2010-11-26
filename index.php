@@ -17,6 +17,7 @@
 		for($no = 1; $no < 25; $no++){
 		print "<li>";
 		print "<a href='#'>Reddit link</a>";
+		print "<div id='miniText'>12 upvotes | 74 comments | That's no moon...</div>";
 		print "</li>";
 		}
 		print "</ul>";
