@@ -28,7 +28,7 @@ img {
 /* Header */
 
 #header {
-	width: 850px;
+	width: 1024px;
 	height: 100px;
 	margin: 0 auto 30px auto;
 }
@@ -40,13 +40,13 @@ img {
 
 #header img {
 	height:100px;
-	width:60px;
+	width:70px;
 }
 
 /* Page */
 
 #page {
-	width: 850px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -56,11 +56,17 @@ img {
 	text-align:left;
 	margin-right:auto;
 	margin-left:auto;
-	width:800px
+	width:1000px
 }
 
 #content li {
 	margin-bottom:5px;
+}
+
+/* miniText */
+
+#miniText {
+	font-size:9px;
 }
 
 /* Footer */
