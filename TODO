@@ -1,0 +1,11 @@
+* Get reddit data, we need:
+  * top 25 posts,
+  * voting info for post <id>
+  * comment info for post <id>
+  * Use models with json mappers to do this
+* HTML structure (for each link) and CSS styling
+* Script to:
+  * Periodically refresh the link data and:
+    * Reset the size/colour for links that have new votes/comments
+    * Append the latest comment to the link
+    * If nothing new happened decrease the colour and size at a rate of 1 per 30 seconds(?)
