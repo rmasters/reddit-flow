@@ -11,10 +11,12 @@ function get_posts() {
     return get_data("");
 }
 
-function get_post($id) {
-    return get_data("by_id/$id");
+// fullname is like t*_[id], name in get_posts()' output
+// also returns voting info
+function get_post($fullname) {
+    return get_data("by_id/$fullname");
 }
 
-function get_comments($id) {
-    return get_data("comments/$id");
+function get_comments($fullname) {
+    return get_data("comments/$fullname");
 }
