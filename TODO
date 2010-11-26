@@ -1,9 +1,9 @@
-* Get reddit data, we need:
+* Get reddit data, we need: - ross
   * top 25 posts,
   * voting info for post <id>
   * comment info for post <id>
   * Use models with json mappers to do this
-* HTML structure (for each link) and CSS styling
+* HTML structure (for each link) and CSS styling - paul
 * Script to:
   * Periodically refresh the link data and:
     * Reset the size/colour for links that have new votes/comments
