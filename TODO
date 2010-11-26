@@ -1,7 +1,5 @@
 * Get reddit data, we need: - ross
-  * top 25 posts,
   * voting info for post <id>
-  * comment info for post <id>
   * Use models with json mappers to do this
 * HTML structure (for each link) and CSS styling - paul
 * Script to:
