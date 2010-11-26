@@ -2,8 +2,9 @@
 <html>
 <head>
   <title>Watching the reddit flow</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/flow.js"></script>
-  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="header">
